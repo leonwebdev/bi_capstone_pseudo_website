@@ -8,7 +8,8 @@ let button = document.getElementById("button");
 function changeImage() {
     if (!city.value || !month.value) {
         img_box.innerHTML = `
-        <h3 class="text-center pt-5">Please select month and city.</h3>
+        <h3 class="text-center pt-5">Please select Month and Cost Center.</h3>
+        <div style="height: 30rem;"></div>
         `;
     } else {
         city_value = city.value ? city.value : "v";
